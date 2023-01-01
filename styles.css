@@ -1,9 +1,11 @@
-html, body {
+html, body 
+{
     margin: 0;
     height: 100%;
 }
 
-.header-container {
+.header-container 
+{
     border: 1px solid black;
     height: 72px;
     display: flex;
@@ -11,14 +13,15 @@ html, body {
     align-items: center;
 }
 
-.header {
+.header, .section-one 
+{
     border: 1px solid black;
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
-.links
+.links, .hero-image
 {
     border: 1px solid black;
     width: 50%;
@@ -26,7 +29,30 @@ html, body {
     justify-content: flex-end;
 }
 
-.link {
+.link 
+{
     margin-left: 20px;
+}
+
+.section-container 
+{
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text
+{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-image
+{
+    justify-content: center;
+    align-items: center;
 }
 
