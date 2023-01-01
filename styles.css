@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.header-container {
+    border: 1px solid black;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    border: 1px solid black;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links
+{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
