@@ -43,11 +43,17 @@ html, body
     align-items: center;
 }
 
-.hero-text
+.hero
 {
     width: 50%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero-title, .hero-text
+{
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
 
 .hero-image
