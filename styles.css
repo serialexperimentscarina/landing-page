@@ -2,6 +2,7 @@ html, body
 {
     margin: 0;
     height: 100%;
+    border: none;
 }
 
 * {
@@ -27,10 +28,10 @@ html, body
 
 .section-container 
 {
-    height: 400px;
+    height: 450px;
 }
 
-.header, .section-one 
+.header, .section-one , .section-two
 {
     width: 80%;
     display: flex;
@@ -48,9 +49,19 @@ a
     margin-left: 20px;
 }
 
-.hero>*
+h1 
 {
     margin-top: 0px;
+}
+
+.hero>*
+{
     margin-right: 20px;
+}
+
+.section-two 
+{
+    flex-direction: column;
+    align-items: center;
 }
 
