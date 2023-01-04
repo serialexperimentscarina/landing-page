@@ -49,14 +49,9 @@ a
     margin-left: 20px;
 }
 
-h1, p
-{
-    margin-top: 0px;
-}
-
 .hero>*
 {
-    margin-right: 20px;
+    margin: 0px 20px 0px 0px;
 }
 
 .section-two, .item, .section-three
@@ -74,6 +69,7 @@ h1, p
 .section-two > h1, .item > p
 {
     text-align: center;
+    margin-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -90,10 +86,19 @@ h1, p
 .section-three
 {
     width: 65%;
-    display: flex;
 }
 
 b
 {
     align-self: flex-end;
+    padding-right: 10px;
+}
+
+.section-four
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
