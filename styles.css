@@ -59,7 +59,7 @@ h1, p
     margin-right: 20px;
 }
 
-.section-two, .item
+.section-two, .item, .section-three
 {
     display: flex;
     flex-direction: column;
@@ -85,4 +85,15 @@ h1, p
 .item-image, .item > p
 {
     width: 175px;
+}
+
+.section-three
+{
+    width: 65%;
+    display: flex;
+}
+
+b
+{
+    align-self: flex-end;
 }
