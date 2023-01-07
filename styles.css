@@ -12,7 +12,8 @@ html, body
 .header-container, .section-container, .hero-image
 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -96,9 +97,31 @@ b
 
 .section-four
 {
+    margin-top: 13%;
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+}
+
+.sign-up
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+button
+{
+    width: 150px;
+}
+
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    margin-top: auto;
 }
